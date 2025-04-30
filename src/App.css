@@ -1,0 +1,125 @@
+/* General Body Styling */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Updated font for modern look */
+  background-color: #e6e6fa; /* Lavender background */
+  color: #4b0082; /* Indigo text color for contrast */
+}
+
+/* Flex container for entire page layout */
+.d-flex {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the content fills the full screen height */
+}
+
+/* Main Content Section */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff; /* White background for content */
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar Styling */
+.navbar {
+  background: linear-gradient(45deg, #8a2be2, #7a1bc7); /* Gradient effect */
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #d3b3ff; /* Lighter lavender on hover */
+}
+
+/* Button Styling */
+.btn {
+  background-color: #8a2be2; /* Lavender-blue button background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #7a1bc7; /* Darker lavender on hover */
+}
+
+/* Footer Styling */
+footer {
+  background: linear-gradient(45deg, #8a2be2, #7a1bc7); /* Gradient footer */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #d3b3ff;
+}
+
+/* Add custom styling for links */
+a {
+  color: #4b0082;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #7a1bc7;
+  text-decoration: underline;
+}
+
+/* Additional content container */
+.container {
+  background-color: #ffffff; /* White background for containers */
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+/* Additional Form Input Styling */
+input, textarea {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+input:focus, textarea:focus {
+  border-color: #8a2be2;
+  outline: none;
+}
+
+/* Add hover effects for clickable buttons and links */
+button, .btn {
+  cursor: pointer;
+}
+
+button:focus, .btn:focus {
+  outline: none;
+}
