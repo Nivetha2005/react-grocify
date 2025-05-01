@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# react-grocify
+A user-friendly React-based grocery shopping web app that allows users to browse products by category, search for items, and add them to a cart. The application uses local storage to retain cart data, offers instant feedback via SweetAlert popups, and provides a smooth shopping experience with real-time filtering and navigation.
+>>>>>>> 86ce2145382fe39b39c297b2c46edcc2265fbeee
